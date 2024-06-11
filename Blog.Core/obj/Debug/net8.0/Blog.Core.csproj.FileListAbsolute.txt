@@ -1,0 +1,12 @@
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/bin/Debug/net8.0/Blog.Core.deps.json
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/bin/Debug/net8.0/Blog.Core.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/bin/Debug/net8.0/Blog.Core.pdb
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/Blog.Core.csproj.AssemblyReference.cache
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/Blog.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/Blog.Core.AssemblyInfoInputs.cache
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/Blog.Core.AssemblyInfo.cs
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/Blog.Core.csproj.CoreCompileInputs.cache
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/Blog.Core.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/refint/Blog.Core.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/Blog.Core.pdb
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/ref/Blog.Core.dll

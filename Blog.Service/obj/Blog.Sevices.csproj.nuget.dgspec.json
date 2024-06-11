@@ -1,0 +1,338 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Sevices/Blog.Sevices.csproj": {}
+  },
+  "projects": {
+    "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/Blog.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/Blog.Common.csproj",
+        "projectName": "Blog.Common",
+        "projectPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/Blog.Common.csproj",
+        "packagesPath": "/Users/ois/.nuget/packages/",
+        "outputPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ois/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/Blog.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/Blog.Core.csproj",
+        "projectName": "Blog.Core",
+        "projectPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/Blog.Core.csproj",
+        "packagesPath": "/Users/ois/.nuget/packages/",
+        "outputPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ois/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/Blog.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/Blog.DataAccess.csproj",
+        "projectName": "Blog.DataAccess",
+        "projectPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/Blog.DataAccess.csproj",
+        "packagesPath": "/Users/ois/.nuget/packages/",
+        "outputPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ois/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/Blog.Entity.csproj": {
+                "projectPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/Blog.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/Blog.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/Blog.Entity.csproj",
+        "projectName": "Blog.Entity",
+        "projectPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/Blog.Entity.csproj",
+        "packagesPath": "/Users/ois/.nuget/packages/",
+        "outputPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ois/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/Blog.Core.csproj": {
+                "projectPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/Blog.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Sevices/Blog.Sevices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Sevices/Blog.Sevices.csproj",
+        "projectName": "Blog.Sevices",
+        "projectPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Sevices/Blog.Sevices.csproj",
+        "packagesPath": "/Users/ois/.nuget/packages/",
+        "outputPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Sevices/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ois/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/Blog.Common.csproj": {
+                "projectPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/Blog.Common.csproj"
+              },
+              "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/Blog.DataAccess.csproj": {
+                "projectPath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/Blog.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

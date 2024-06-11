@@ -1,0 +1,17 @@
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/bin/Debug/net8.0/Blog.DataAccess.deps.json
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/bin/Debug/net8.0/Blog.DataAccess.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/bin/Debug/net8.0/Blog.DataAccess.pdb
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/bin/Debug/net8.0/Blog.Core.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/bin/Debug/net8.0/Blog.Entity.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/bin/Debug/net8.0/Blog.Entity.pdb
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/bin/Debug/net8.0/Blog.Core.pdb
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.DataAccess.csproj.AssemblyReference.cache
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.DataAccess.AssemblyInfoInputs.cache
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.DataAccess.AssemblyInfo.cs
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.DataAccess.csproj.CoreCompileInputs.cache
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.Dat.4C31A8E2.Up2Date
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.DataAccess.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/refint/Blog.DataAccess.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.DataAccess.pdb
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/ref/Blog.DataAccess.dll
