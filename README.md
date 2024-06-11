@@ -1,39 +1,37 @@
 # AMERİKAN HASTANESİ ASSESSMENT PROJECT – NET BACKEND DEVELOPER
 
-Bu proje, Amerikan Hastanesi'nin blog uygulaması için bir backend servisidir. Proje, .NET 8 ve PostgreSQL kullanılarak geliştirilmiştir.
+This project is a backend service for the blog application of the American Hospital. The project is developed using .NET 8 and PostgreSQL.
 
-## Mimari Seçimler
+Architectural Choices
 
-- **.NET 8:** .NET 8, platformlar arası çalışabilen ve yüksek performanslı uygulamalar geliştirmek için kullanılan bir çerçevedir. Bu projede, .NET 5'in sunduğu özelliklerden ve ekosistemden yararlanılmıştır.
+.NET 8: .NET 8 is a cross-platform framework used for developing high-performance applications. This project leverages the features and ecosystem of .NET 8.
 
- **N-Layer (Katmanlı) Mimari:** Bu proje, aşağıdaki katmanlardan oluşan bir N-Layer mimari yapısına sahiptir. Uygulamanın farklı sorumlulukları ve işlevleri arasında ayrım yaparak, kodun daha okunabilir, bakım yapılabilir ve test edilebilir olması amaçlandı.
-  - **Web API Katmanı:** Bu katman, HTTP isteklerini alır ve yanıtlar. Bu katman ayrıca, gelen isteklerin doğrulamasını ve yetkilendirmesini de yapar.
-  - **Test Katmanı:** Bu katman, API katmanındaki controller'lar için test koşulmasını sağlar.
-  - **Service Katmanı:** Bu katman, iş mantığını içerir. Veritabanı işlemleri ve diğer backend işlemleri bu katmanda gerçekleştirilir.
-  - **DataAccess Katmanı:** Bu katman, context'i, Migration'ları ve entity repository'lerini içerir.. Bu katman, Entity Framework Core kullanılarak oluşturulmuştur.
-  - **Entity Katmanı:** Uygulamadaki tabloların tanımlandığı katmandır.
-  - **Core Katmanı:** Uygulamadaki temel yapının oluşturulduğu katmandır. Abstract sınıfları ve temel Generic Repository'yi barındırır.
-  - **Common Katmanı:** Dto'ların, helper'ların ve attribute'lerin oluşturulduğu katmandır.
+N-Layer Architecture: This project follows an N-Layer architectural structure, consisting of the following layers. The goal is to separate different responsibilities and functions of the application to make the code more readable, maintainable, and testable.
 
-- **Entity Framework Core:** Veritabanı işlemleri için Entity Framework Core kullanılmıştır. Bu, veritabanı işlemlerini kolaylaştırır ve veritabanı ile uygulama arasındaki etkileşimi yönetir.
+Web API Layer: This layer handles HTTP requests and responses. It also performs request validation and authorization.
+Test Layer: This layer ensures testing of controllers in the API layer.
+Service Layer: This layer contains the business logic. Database operations and other backend processes are performed in this layer.
+DataAccess Layer: This layer includes the context, migrations, and entity repositories. It is built using Entity Framework Core.
+Entity Layer: This layer defines the tables in the application.
+Core Layer: This layer forms the basic structure of the application. It contains abstract classes and the basic Generic Repository.
+Common Layer: This layer includes DTOs, helpers, and attributes.
+Entity Framework Core: Entity Framework Core is used for database operations. It simplifies database operations and manages the interaction between the database and the application.
 
-- **Npgsql:** PostgreSQL veritabanı ile etkileşim için Npgsql kullanılmıştır. Npgsql, .NET için PostgreSQL veritabanı ile etkileşim sağlayan bir kütüphanedir.
+Npgsql: Npgsql is used to interact with the PostgreSQL database. It is a .NET library that provides PostgreSQL database interaction.
 
-- **Xunit:** Unit testler için Xunit test çerçevesi kullanılmıştır.
+Xunit: The Xunit testing framework is used for unit tests.
 
-## Uygulamanın Çalıştırılması
+Running the Application
 
-1. Projeyi klonlayın veya indirin.
-2. Terminalde projenin ana dizinine gidin.
-3. `dotnet restore` komutunu çalıştırın.
-4. `dotnet run --project Blog.WebApi/Blog.WebApi.csproj` komutunu çalıştırın.
-5. Tarayıcınızda `localhost:5222/swagger` adresine gidin.
+Clone or download the project.
+Navigate to the main directory of the project in the terminal.
+Run the command dotnet restore.
+Run the command dotnet run --project Blog.WebApi/Blog.WebApi.csproj.
+Open your browser and go to localhost:5222/swagger.
+Running the Tests
 
-## Testlerin Çalıştırılması
+Navigate to the test project directory (Blog.Test) in the terminal.
+Run the command dotnet test.
+API Documentation
 
-1. Terminalde test projesinin dizinine gidin (`Blog.Test`).
-2. `dotnet test` komutunu çalıştırın.
-
-## API Dokümantasyonu
-
-API dokümantasyonu için Swagger kullanılmıştır. Uygulama çalışırken tarayıcınızda `http://localhost:5000/swagger` adresine giderek API dokümantasyonunu görüntüleyebilirsiniz.
+Swagger is used for API documentation. While the application is running, you can view the API documentation by navigating to localhost:5222/swagger in your browser.
