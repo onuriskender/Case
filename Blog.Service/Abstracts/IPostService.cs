@@ -6,44 +6,43 @@ namespace Blog.Service.Abstracts;
 public interface IPostService
 {
   /// <summary>
-  /// TODO:Onur summary ekleyecek
+  /// Asynchronously retrieves a list of active posts.
   /// </summary>
-  /// <returns></returns>
+  /// <returns>A list of active posts.</returns>
   Task<List<PostListDto>> GetActivePostsAsync();
 
   /// <summary>
-  /// TODO: Onur
+  /// Asynchronously retrieves an active post by its ID.
   /// </summary>
-  /// <param name="id"></param>
-  /// <returns></returns>
+  /// <param name="id">The ID of the post to be retrieved.</param>
+  /// <returns>A response containing the post details if found.</returns>
   Task<ResponseDto> GetActivePostByIdAsync(int id);
 
   /// <summary>
-  /// TODO: summary
+  /// Asynchronously increases the view count of a post.
   /// </summary>
-  /// <param name="postId"></param>
-  /// <returns></returns>
+  /// <param name="postId">The ID of the post whose view count is to be increased.</param>
   Task IncreaseViewCountAsync(int postId);
 
   /// <summary>
-  /// TODO: Summary
+  /// Asynchronously creates a new post with the given details.
   /// </summary>
-  /// <param name="dto"></param>
-  /// <returns></returns>
+  /// <param name="dto">The details of the post to be created.</param>
+  /// <returns>A response containing the result of the creation operation.</returns>
   Task<ResponseDto> CreatePostAsync(CreatePostDto dto);
 
   /// <summary>
-  /// TODO: summary
+  /// Asynchronously updates a post with the given details.
   /// </summary>
-  /// <param name="dto"></param>
-  /// <param name="id"></param>
-  /// <returns></returns>
+  /// <param name="dto">The new details of the post.</param>
+  /// <param name="id">The ID of the post to be updated.</param>
+  /// <returns>A response containing the result of the update operation.</returns>
   Task<ResponseDto> UpdatePostAsync(UpdatePostDto dto, int id);
 
   /// <summary>
-  /// TODO: summary
+  /// Asynchronously deletes a post by its ID (soft delete).
   /// </summary>
-  /// <param name="id"></param>
-  /// <returns></returns>
+  /// <param name="id">The ID of the post to be deleted.</param>
+  /// <returns>A response containing the result of the deletion operation.</returns>
   Task<ResponseDto> DeletePostAsync(int id);
 }

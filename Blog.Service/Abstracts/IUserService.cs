@@ -6,23 +6,23 @@ namespace Blog.Service.Abstracts;
 public interface IUserService
 {
   /// <summary>
-  /// TODO: RegisterAsync
+  /// Asynchronously registers a new user with the given details.
   /// </summary>
-  /// <param name="registerUserDto"></param>
-  /// <returns></returns>
+  /// <param name="registerUserDto">The details of the user to be registered.</param>
+  /// <returns>A response containing the result of the registration operation.</returns>
   Task<ResponseDto> RegisterAsync(RegisterUserDto registerUserDto);
-  
+
   /// <summary>
-  /// TODO: LoginAsync
+  /// Asynchronously generates a token.
   /// </summary>
-  /// <param name="loginDto"></param>
-  /// <returns></returns>
+  /// <param name="loginDto">The login details of the user.</param>
+  /// <returns>A response containing the generated token if the authentication is successful.</returns>
   Task<ResponseDto> GetTokenAsync(LoginDto loginDto);
 
   /// <summary>
-  /// TODO: onur
+  /// Asynchronously retrieves a user by their ID.
   /// </summary>
-  /// <param name="id"></param>
-  /// <returns></returns>
+  /// <param name="id">The ID of the user to be retrieved.</param>
+  /// <returns>A response containing the user details if found.</returns>
   Task<ResponseDto> GetUserByIdAsync(int id);
 }
