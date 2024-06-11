@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "39zAeE9GXgRmsM10lvUezD9QSoTqETQ+YY4nJ8o3bNojFqoTcFEjqZZNb1iApYBgLHcCL3mwLcAZo98Itslg7w==",
+  "dgSpecHash": "tBOlj6TqJnA=",
   "success": true,
   "projectFilePath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/Blog.Common.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,10 @@
     "/Users/ois/.nuget/packages/microsoft.extensions.primitives/2.2.0/microsoft.extensions.primitives.2.2.0.nupkg.sha512",
     "/Users/ois/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
     "/Users/ois/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
-    "/Users/ois/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+    "/Users/ois/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
+    "/Users/ois/.nuget/packages/microsoft.netcore.app.runtime.win-x86/8.0.6/microsoft.netcore.app.runtime.win-x86.8.0.6.nupkg.sha512",
+    "/Users/ois/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x86/8.0.6/microsoft.aspnetcore.app.runtime.win-x86.8.0.6.nupkg.sha512",
+    "/Users/ois/.nuget/packages/microsoft.netcore.app.crossgen2.osx-x64/8.0.6/microsoft.netcore.app.crossgen2.osx-x64.8.0.6.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,7 +1,6 @@
 using System.Net;
 using Blog.Common.Dtos;
 using Blog.Common.Dtos.Authentication;
-using Blog.Service;
 using Blog.Service.Abstracts;
 using Blog.WebApi.Controllers;
 using Microsoft.AspNetCore.Mvc;

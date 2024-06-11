@@ -34,6 +34,8 @@ builder.Services.AddSwaggerGen(x =>
   var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
   x.IncludeXmlComments(xmlPath);
 
+  x.EnableAnnotations();
+
   x.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
   {
     In = ParameterLocation.Header,

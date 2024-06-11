@@ -4,7 +4,6 @@ using Blog.Common.Dtos.Post;
 using Blog.Common.Helpers;
 using Blog.Entity.Concretes;
 using Blog.Service.Abstracts;
-using Microsoft.AspNetCore.Http;
 
 namespace Blog.Service.Concretes;
 

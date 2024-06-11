@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0i2eW5CQLTycUsLS4WoQRrGNOgZPnKdIjI4U+4Am5v0JKa3fXfMh9SQovDv+CSKP3pRnpzhQF5SQ4HDmmCECzw==",
+  "dgSpecHash": "3+Jo+27A1i0=",
   "success": true,
   "projectFilePath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/Blog.Entity.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,10 @@
     "/Users/ois/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/ois/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/Users/ois/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
-    "/Users/ois/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "/Users/ois/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/ois/.nuget/packages/microsoft.netcore.app.runtime.win-x86/8.0.6/microsoft.netcore.app.runtime.win-x86.8.0.6.nupkg.sha512",
+    "/Users/ois/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x86/8.0.6/microsoft.aspnetcore.app.runtime.win-x86.8.0.6.nupkg.sha512",
+    "/Users/ois/.nuget/packages/microsoft.netcore.app.crossgen2.osx-x64/8.0.6/microsoft.netcore.app.crossgen2.osx-x64.8.0.6.nupkg.sha512"
   ],
   "logs": []
 }

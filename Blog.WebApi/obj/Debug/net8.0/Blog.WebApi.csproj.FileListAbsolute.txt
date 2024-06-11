@@ -130,3 +130,4 @@
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.WebApi/bin/Debug/net8.0/Blog.WebApi.xml
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.WebApi/obj/Debug/net8.0/Blog.WebApi.xml
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.WebApi/obj/Debug/net8.0/Blog.WebApi.sourcelink.json
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Annotations.dll

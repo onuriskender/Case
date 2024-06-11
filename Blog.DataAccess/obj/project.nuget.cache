@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mjT/2wSFpjmvo6E6kIjkdqPLmOX52meawwUdmpxBvmSq0qCZosGKzaa1b09keQAdgtCQ5ulCYjO4S7M8pG2TBw==",
+  "dgSpecHash": "t3ZgLdsldeo=",
   "success": true,
   "projectFilePath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/Blog.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,10 @@
     "/Users/ois/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/Users/ois/.nuget/packages/npgsql/8.0.3/npgsql.8.0.3.nupkg.sha512",
     "/Users/ois/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.4/npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
-    "/Users/ois/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+    "/Users/ois/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
+    "/Users/ois/.nuget/packages/microsoft.netcore.app.runtime.win-x86/8.0.6/microsoft.netcore.app.runtime.win-x86.8.0.6.nupkg.sha512",
+    "/Users/ois/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x86/8.0.6/microsoft.aspnetcore.app.runtime.win-x86.8.0.6.nupkg.sha512",
+    "/Users/ois/.nuget/packages/microsoft.netcore.app.crossgen2.osx-x64/8.0.6/microsoft.netcore.app.crossgen2.osx-x64.8.0.6.nupkg.sha512"
   ],
   "logs": []
 }
