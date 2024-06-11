@@ -2,36 +2,62 @@
 
 This project is a backend service for the blog application of the American Hospital. The project is developed using .NET 8 and PostgreSQL.
 
-Architectural Choices
+## Introduction
 
-.NET 8: .NET 8 is a cross-platform framework used for developing high-performance applications. This project leverages the features and ecosystem of .NET 8.
+The purpose of this project is to provide a robust and scalable backend service for a blog application. The application is designed to handle various functionalities such as user authentication, post management, and comments.
 
-N-Layer Architecture: This project follows an N-Layer architectural structure, consisting of the following layers. The goal is to separate different responsibilities and functions of the application to make the code more readable, maintainable, and testable.
+## Architectural Choices
 
-Web API Layer: This layer handles HTTP requests and responses. It also performs request validation and authorization.
-Test Layer: This layer ensures testing of controllers in the API layer.
-Service Layer: This layer contains the business logic. Database operations and other backend processes are performed in this layer.
-DataAccess Layer: This layer includes the context, migrations, and entity repositories. It is built using Entity Framework Core.
-Entity Layer: This layer defines the tables in the application.
-Core Layer: This layer forms the basic structure of the application. It contains abstract classes and the basic Generic Repository.
-Common Layer: This layer includes DTOs, helpers, and attributes.
-Entity Framework Core: Entity Framework Core is used for database operations. It simplifies database operations and manages the interaction between the database and the application.
+- **.NET 8:**
+    - Chosen for its cross-platform capabilities, high performance, and extensive ecosystem.
+    - Enables the development of modern, scalable, and maintainable applications.
 
-Npgsql: Npgsql is used to interact with the PostgreSQL database. It is a .NET library that provides PostgreSQL database interaction.
+- **N-Layer Architecture:**
+    - **Web API Layer:** Handles HTTP requests and responses, validates and authorizes incoming requests.
+    - **Test Layer:** Ensures the functionality of controllers through unit tests.
+    - **Service Layer:** Contains business logic and handles backend operations and database interactions.
+    - **DataAccess Layer:** Manages the database context, migrations, and repositories using Entity Framework Core.
+    - **Entity Layer:** Defines the database tables.
+    - **Core Layer:** Contains fundamental structures such as abstract classes and generic repositories.
+    - **Common Layer:** Includes DTOs, helpers, and attributes for the application.
 
-Xunit: The Xunit testing framework is used for unit tests.
+## Technologies Used
 
-Running the Application
+- **Entity Framework Core:**
+    - Simplifies database operations and manages the interaction between the application and the database.
+    - Provides an ORM (Object-Relational Mapping) framework for .NET applications.
 
-Clone or download the project.
-Navigate to the main directory of the project in the terminal.
-Run the command dotnet restore.
-Run the command dotnet run --project Blog.WebApi/Blog.WebApi.csproj.
-Open your browser and go to localhost:5222/swagger.
-Running the Tests
+- **Npgsql:**
+    - A .NET library used to interact with PostgreSQL databases.
+    - Facilitates seamless communication between .NET applications and PostgreSQL.
 
-Navigate to the test project directory (Blog.Test) in the terminal.
-Run the command dotnet test.
-API Documentation
+- **Xunit:**
+    - A testing framework for .NET applications.
+    - Used for writing unit tests to ensure the application functions as expected.
 
-Swagger is used for API documentation. While the application is running, you can view the API documentation by navigating to localhost:5222/swagger in your browser.
+## Project Structure
+
+- **Blog.WebApi:** The entry point for the web API, handles HTTP requests and responses.
+- **Blog.Test:** Contains unit tests for the application.
+- **Blog.Service:** Implements the business logic and interacts with the DataAccess layer.
+- **Blog.DataAccess:** Manages database context, migrations, and repositories.
+- **Blog.Entity:** Defines the entities representing the database tables.
+- **Blog.Core:** Contains core functionalities, abstract classes, and generic repositories.
+- **Blog.Common:** Includes common utilities, DTOs, helpers, and attributes.
+
+## Running the Application
+
+- Clone or download the project.
+- Navigate to the main directory of the project in the terminal.
+- Run the command dotnet restore.
+- Run the command dotnet run --project Blog.WebApi/Blog.WebApi.csproj.
+- Open your browser and go to `localhost:5222/swagger`.
+
+## Running the Tests
+
+- Navigate to the test project directory (Blog.Test) in the terminal.
+- Run the command dotnet test.
+
+## API Documentation
+
+Swagger is used for API documentation. While the application is running, you can view the API documentation by navigating to `localhost:5222/swagger` in your browser.
