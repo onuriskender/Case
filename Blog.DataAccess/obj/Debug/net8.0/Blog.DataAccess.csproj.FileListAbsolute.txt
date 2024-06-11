@@ -15,3 +15,4 @@
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/refint/Blog.DataAccess.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.DataAccess.pdb
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/ref/Blog.DataAccess.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.DataAccess/obj/Debug/net8.0/Blog.DataAccess.sourcelink.json

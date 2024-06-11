@@ -13,3 +13,4 @@
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/obj/Debug/net8.0/refint/Blog.Entity.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/obj/Debug/net8.0/Blog.Entity.pdb
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/obj/Debug/net8.0/ref/Blog.Entity.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Entity/obj/Debug/net8.0/Blog.Entity.sourcelink.json

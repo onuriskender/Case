@@ -47,3 +47,4 @@
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Service/obj/Debug/net8.0/refint/Blog.Service.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Service/obj/Debug/net8.0/Blog.Service.pdb
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Service/obj/Debug/net8.0/ref/Blog.Service.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Service/obj/Debug/net8.0/Blog.Service.sourcelink.json

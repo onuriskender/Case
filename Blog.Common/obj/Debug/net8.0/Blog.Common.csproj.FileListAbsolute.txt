@@ -44,3 +44,4 @@
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/bin/Debug/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/obj/Debug/net8.0/Blog.Com.2AC17AC2.Up2Date
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Common/obj/Debug/net8.0/Blog.Common.sourcelink.json

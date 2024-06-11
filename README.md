@@ -45,6 +45,12 @@ The purpose of this project is to provide a robust and scalable backend service 
 - **Blog.Core:** Contains core functionalities, abstract classes, and generic repositories.
 - **Blog.Common:** Includes common utilities, DTOs, helpers, and attributes.
 
+## Functionality
+
+- Users can register and be authorized with a JWT token.
+- Viewing the post list and individual posts does not require authorization; however, if an authorized user views a post, the view count is incremented.
+- Authorized users can add new posts, update their own posts, and delete their own posts. Users cannot update or delete posts created by others.
+
 ## Running the Application
 
 - Clone or download the project.

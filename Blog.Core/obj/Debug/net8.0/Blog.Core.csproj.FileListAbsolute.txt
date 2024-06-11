@@ -10,3 +10,4 @@
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/refint/Blog.Core.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/Blog.Core.pdb
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/ref/Blog.Core.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Core/obj/Debug/net8.0/Blog.Core.sourcelink.json
