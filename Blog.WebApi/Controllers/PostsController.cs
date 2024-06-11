@@ -3,7 +3,6 @@ using Blog.Common.Dtos.Post;
 using Blog.Service.Abstracts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Swashbuckle.AspNetCore.Annotations;
 
 namespace Blog.WebApi.Controllers;
 

@@ -44,7 +44,6 @@
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/bin/Debug/net8.0/Npgsql.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/bin/Debug/net8.0/NuGet.Frameworks.dll
-/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/bin/Debug/net8.0/Swashbuckle.AspNetCore.Annotations.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll

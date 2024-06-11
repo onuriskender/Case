@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bg4sWHZ4ph2jVYpgAy+xwb14OzN55c6eCi0D8oZFtuFj/QKTYoNSAGMCjiPEChJonQvNU0AsXu7UloEdvwkz4w==",
+  "dgSpecHash": "AqUrAXmw1AolW5at450/43xKdNeRnH3juZiNp5AslRegfeNrtCJWt7OOr1iCSI5LSc3uZ3XVQVUCJnyVkOpOSw==",
   "success": true,
   "projectFilePath": "/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/Blog.Test.csproj",
   "expectedPackageFiles": [
@@ -66,7 +66,6 @@
     "/Users/ois/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/ois/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/ois/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
-    "/Users/ois/.nuget/packages/swashbuckle.aspnetcore.annotations/6.6.2/swashbuckle.aspnetcore.annotations.6.6.2.nupkg.sha512",
     "/Users/ois/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "/Users/ois/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "/Users/ois/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",

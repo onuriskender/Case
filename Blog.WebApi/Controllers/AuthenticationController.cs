@@ -2,7 +2,6 @@ using Blog.Common.Attributes;
 using Blog.Common.Dtos.Authentication;
 using Blog.Service.Abstracts;
 using Microsoft.AspNetCore.Mvc;
-using Swashbuckle.AspNetCore.Annotations;
 
 namespace Blog.WebApi.Controllers;
 

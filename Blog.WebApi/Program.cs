@@ -33,7 +33,6 @@ builder.Services.AddSwaggerGen(x =>
   var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
   var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
   x.IncludeXmlComments(xmlPath);
-  x.EnableAnnotations();
 
   x.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
   {
