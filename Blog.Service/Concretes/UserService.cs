@@ -118,7 +118,7 @@ public class UserService : BaseService, IUserService
         res.Message = "Body is null";
         return res;
       }
-      
+
       var user = await Services.UserManager.FindByEmailAsync(loginDto.Email);
       if (user == null)
       {
@@ -138,7 +138,8 @@ public class UserService : BaseService, IUserService
 
       var token = this.GenerateJwtToken(loginDto.Email, user.Id.ToString());
       res.StatusCode = HttpStatusCode.OK;
-      res.Message = "Token successfully created. If you are using Swagger, please add “Bearer” at the beginning of the token";
+      res.Message =
+        "Token successfully created. If you are using Swagger, please add “Bearer” at the beginning of the token";
       res.Data = token;
 
       return res;
@@ -173,7 +174,7 @@ public class UserService : BaseService, IUserService
 
     return new JwtSecurityTokenHandler().WriteToken(token);
   }
-  
+
   public async Task<ResponseDto> GetUserByIdAsync(int id)
   {
     try

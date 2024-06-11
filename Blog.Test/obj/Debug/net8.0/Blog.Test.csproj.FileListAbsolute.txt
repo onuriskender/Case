@@ -142,3 +142,4 @@
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/obj/Debug/net8.0/Blog.Test.pdb
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/obj/Debug/net8.0/Blog.Test.genruntimeconfig.cache
 /Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/obj/Debug/net8.0/ref/Blog.Test.dll
+/Users/ois/RiderProjects/AmerikanHastanesiCase/Blog.Test/obj/Debug/net8.0/Blog.Test.sourcelink.json
